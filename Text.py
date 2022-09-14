@@ -61,11 +61,3 @@ class FillText():
             numTimes = int(strLength / len(str))
             newStr = ((str * numTimes) + '\n')* length
             return newStr
-
-
-
-
-
-
-
-    
