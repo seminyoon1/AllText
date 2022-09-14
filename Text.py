@@ -28,6 +28,7 @@ class TextFile():
     def readTextFile(fileAddress):
         f = open(fileAddress, 'r')
         str = f.read()
+        f.close()
         return str
 
     def textToJSON(fileAddress, fields):
@@ -48,6 +49,7 @@ class TextFile():
             JSONfile = open("test2.json", "w")
             json.dump(dict1, JSONfile, indent = 4)
             JSONfile.close()
+            f.close()
         except FileNotFoundError:
             print("The " + fileAddress + " JSON file does not exist.")
         
