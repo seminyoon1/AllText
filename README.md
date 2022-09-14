@@ -1,14 +1,14 @@
 # AllText
 **What is AllText?**
 
-It is an open souce python program that lets you do whatever you want with text. Although still in development, 
+It is an open souce python program library that lets you do whatever you want with text. Although still in development, 
 I plan on incorporating lots of features dealing with manipulating or just using Text Files, creating Text
 such as randomized or sequences of characters and words, Text analysis and more! Really depends on my motivation to learn
 and how important I feel it is which probably brings up the next question:
 
 **What is the point of this?**
 
-I'm sure there are other programs that do this if not better, but mainly this is for my personal use. 
+I'm sure there are other program libraries that do this if not better, but mainly this is for my personal use. 
 I've gotten pretty tired of looking up File I/O (I always forget what the letters mean) and various other things that come up
 while doing projects, lecture assignments, or during work. I probably will depend on this way too much.
 
