@@ -1,0 +1,31 @@
+Documentation:
+
+Class Text File:
+
+newTextFile - creates a new Text File. 
+Inputs: File Name and address of the file. 
+Outputs: new Text File.
+Can be None for file address if you want to create inside the local folder.
+
+getLocalAddress - return file address based on file name.
+Inputs: File Name.
+Will not check if the file exists or not.
+
+writeTextFile - will overwrite into the file with the string.
+Inputs: String Text.
+
+readTextFile - will return a string with the file text.
+Inputs: File address.
+Outputs: String Text.
+
+textToJSON - convert text file to JSON file.
+Inputs: Text File, Fields Array to separate the data.
+Outputs: New JSON File.
+Will not check if it is a text file, the format of the text file should have a space between items.
+
+Class Fill Text:
+
+setRepeatedString - will give a string with repeated strings.
+Inputs: String Text, length of desired string, number of lines.
+Outputs: String.
+If the length of String Text is greater than length of desired string, will return an error.
